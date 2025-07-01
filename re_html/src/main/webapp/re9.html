@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>외부 데이터를 이용한 출력 응용편(배열)</title>
+</head>
+<body>
+
+<div>쇼핑센터</div>
+
+
+
+
+
+
+
+clothes 검색 : <input type="text" id="crop">
+<input type = "button" value = "검색" onclick = "search_clothe()">
+<input type = "button" value = "전체" onclick = "all_clothes()">
+
+
+<br><br><br><br>
+
+<p>search_</p>
+
+
+
+<select onchange= "gugu(this.value)">
+
+<option value="">결과값 선택</option>
+<option value="even">상품명</option>
+<option value="odd">판매가격</option>
+<option value="even">할인율</option>
+<option value="odd">할인금액</option>
+
+</select> 
+
+
+
+
+
+
+</body>
+
+<!-- API 형태의 파일로 데이터를 가져옴 -->
+
+<script src=" http://mekeyace.dothome.co.kr/datalist.js"></script>
+<script src="./re9.js?v=1" ></script>
+</html>

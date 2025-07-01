@@ -1,0 +1,72 @@
+@charset "UTF-8";
+body{
+	margin:0;
+	padding:0;
+}
+.box{
+	display:block;
+	widht:100px;
+	height:100px;
+	border: 1px solid red;
+}
+.box2{
+	display:block;
+	width:300px;
+	height:30px;
+	background-color:orange;
+}
+.btn{
+	display:block;
+	width:150px;
+	height:50px;
+	border:1px double black;
+}
+.box3{
+	dlsplay:block;
+	width : 150px;
+	height:150px;
+	background-color: blue;
+	color: white;
+	font-style: nomal;	
+}
+.ulcss{
+	width: 400px;
+	height: 160px;
+	list-style: none;
+	margitn: 0;
+	padding: 0;
+}
+.licss{
+	widht : 100px;
+	hiehgt: 40px;
+	border: 1px solid black ;
+	text-align: center;
+	line-height: 40px;
+}
+.licss:hover{
+	background-color: skyblue;
+}
+.disc{
+	width :500px;
+	height: 40px;
+	list-style: none;
+	margitn:0;
+	padding:0;
+}
+.lidisc{
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	background-color : red;
+	float: right;
+}
+.lidisc2{
+	width:100px;
+	background-color: black;
+}
+
+
+
+
+
+

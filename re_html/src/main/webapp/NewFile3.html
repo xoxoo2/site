@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>쇼핑몰 검색</title>
+</head>
+<body>
+
+    <div>쇼핑센터</div>
+
+    <!-- Search Bar -->
+    <label for="crop">clothes 검색:</label>
+    <input type="text" id="crop">
+    <input type="button" value="검색" onclick="search_clothe()">
+    <input type="button" value="전체" onclick="all_clothes()">
+    
+    <br><br><br><br>
+
+    <!-- Dropdown for Sorting Results -->
+    <p>search_</p>
+    <select onchange="gugu(this.value)">
+        <option value="">결과값 선택</option>
+        <option value="even">상품명</option>
+        <option value="odd">판매가격</option>
+        <option value="even">할인율</option>
+        <option value="odd">할인금액</option>
+    </select>
+
+    <!-- Display search results -->
+    <div id="searchResults"></div>
+
+    <script>
+        // Example product data (you can dynamically load this from a database using Spring later)
+        
+    </script>
+
+</body>
+<script src = ./NewFile3.js?v=1"></script>
+</html>

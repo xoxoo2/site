@@ -1,0 +1,35 @@
+@charset "UTF-8";
+body{
+	margin: 0;
+	padding:0;
+}
+.box{
+	position:static;
+	width: 500px;
+	height: 500px;
+	background-color: black;
+}
+.sbox{
+	position:static;
+	margin-left:200px;
+	top:200px;
+	display:block;
+	width:100px;
+	height:100px;
+	background-color: yellow;
+}
+.box2{
+	position:absoulte;
+	width: 500px;
+	height: 500px;
+	background-color: pink;
+}
+.sbox2{
+	position:relative;
+	margin-top:200px;
+	left:400px;
+	display:block;
+	width:100px;
+	height:100px;
+	background-color: green;
+}

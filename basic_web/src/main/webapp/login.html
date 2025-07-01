@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Servlet + login </title>
+</head>
+<body>
+
+<!--  servlet name : 가사의 이름이며, 동일한 이름은 사용하지 모샇ㅁ
+	  servlet class : package  +java  클래스명
+	   ur-pattern : 해당 java 파일을 WEB에서 가상의 경로로 사용할 ㅅ 있도록
+	   
+	   name 속성은 Backend에게 전달되니ㅡㄴ 속성입니다.
+ -->
+
+<form id ="frm" method="post" action="./Lging.do"  onsubmit="return ck()">
+
+ 아이디 : <input type="text" name="mid"> <br>
+ 패스워드 : <input type ="password" name="mpass"> <br>
+ 
+ <input type "submit" value ="로그인"> 
+
+</form>
+
+</body>
+
+<script >
+
+
+
+//form 사용 및 name 속성 이름을 이미 사용하였으므로  getElementById 없이 사용함
+//return 사용한 이유는 input에 submit을 사용
+
+function ck(){
+	if(frm.mid.value==""){
+		alert("아이디를 입력하세요!");
+		frm.mid.focus();
+		return false;
+	}
+	else if(frm.mpass.value==""){
+		alert("패스워드를 입력하세요!");
+		frm.mpass.focus();
+		return false;
+	}
+	else{
+		return true;
+	}
+}
+
+</script>
+
+
+
+</html>

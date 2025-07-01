@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> 공지사항 등록 </title>
+</head>
+<body>
+
+<!--<form method="post" action="localhost:8080/basic_web/data/noticewriteok.jsp">  -->
+
+<form id="frm" method="post" action="http://172.30.1.88:8080/basic_html/data/idcheck.jsp">
+
+
+
+
+제목 :  <input type = "text" name = "id">
+글쓴이 :	<input type = "text" name = "newid">
+내용 :
+
+
+
+<input type = "button" value ="전송" onclick = "search_check()">
+</form>
+
+<script>
+function search_check(){
+	
+	
+	if(frm.id.value=="" || frm.newid.value==""){
+		alert("해당 접근이 올바르지 않습니다");
+	}
+	else{
+		frm.submit();
+	}
+}
+</script>
+
+
+</body>
+</html>

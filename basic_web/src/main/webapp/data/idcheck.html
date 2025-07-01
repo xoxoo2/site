@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> 아이디 찾기 </title>
+</head>
+<body>
+
+<form id="frm" method="post" action="http://172.30.1.88:8080/basic_html/data/idcheck.jsp">
+
+이름 :		<input type = "text" name = "inputName">
+이메일 :		<input type = "text" name = "inputEmail">
+
+<input type="button" value="전송" onclick = "search_check()">
+
+
+
+</form>
+
+</body>
+
+<script>
+function search_check(){
+	
+	
+	if(frm.inputName.value=="" || frm.inputEmail.value==""){
+		alert("해당 접근이 올바르지 않습니다");
+	}
+	else{
+		frm.submit();
+	}
+}
+</script>
+
+
+</html>
